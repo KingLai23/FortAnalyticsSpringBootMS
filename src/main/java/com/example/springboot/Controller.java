@@ -232,12 +232,8 @@ public class Controller {
 		total.put("placetop1", totalWins);
 		total.put("kd", totalkd);
 		total.put("winrate", totalWinRate);
-		total.put("placetop3", top3);
-		total.put("placetop5", top5);
-		total.put("placetop6", top6);
-		total.put("placetop10", top10);
-		total.put("placetop12", top12);
-		total.put("placetop25", top25);
+		total.put("top356", top3 + top5 + top6);
+		total.put("top101225", top10 + top12 + top25);
 		total.put("kills", totalKills);
 		total.put("matchesplayed", totalMatches);
 		total.put("minutesplayed", totalGameTime);
