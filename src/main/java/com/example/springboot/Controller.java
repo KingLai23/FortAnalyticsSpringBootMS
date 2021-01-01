@@ -220,7 +220,7 @@ public class Controller {
 			totalOutLived += Integer.parseInt(squads.get("playersoutlived").toString());
 			totalOutlivedM = totalOutLived / totalMatches;
 			totalGameTime += Integer.parseInt(squads.get("minutesplayed").toString());
-			avgMatchTime = totalGameTime / totalMatches;
+			avgMatchTime = totalGameTime / totalMatches + 1;
 			top3 += Integer.parseInt(squads.get("placetop3").toString()); 
 			top6 += Integer.parseInt(squads.get("placetop6").toString()); 
 			
